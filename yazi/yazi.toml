@@ -1,0 +1,15 @@
+# 三列比例：父目录 / 当前目录 / 预览
+# 默认是 [1, 4, 3]，可按需调整
+[mgr]
+ratio = [1, 2, 5]
+
+# git.yazi: 获取 Git 状态
+[[plugin.prepend_fetchers]]
+id  = "git"
+url = "*"
+run = "git"
+
+[[plugin.prepend_fetchers]]
+id  = "git"
+url = "*/"
+run = "git"
