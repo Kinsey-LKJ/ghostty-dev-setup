@@ -1,5 +1,5 @@
 #!/bin/bash
-# dotfiles 安装脚本 - 新电脑一键恢复
+# ghostty-dev-setup 安装脚本 - 新电脑一键恢复
 
 set -e
 
