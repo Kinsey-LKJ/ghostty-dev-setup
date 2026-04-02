@@ -5,3 +5,6 @@ eval "$(starship init zsh)"
 
 # Zoxide (j command for fast directory jumping)
 eval "$(zoxide init zsh --cmd j)"
+
+# q - AI command translator
+eval "$(q q init zsh)"
